@@ -56,10 +56,12 @@ nav ul li a:hover {
 }
 
 /* Main */
+/* Start here */
 
 main .start {
     background-color: #DBDBDB;
     display: flex;
+    width: 100%;
 }
 
 .start img {
@@ -98,10 +100,28 @@ main .start {
     text-decoration: none;
     border-left-style: solid;
     border-left-color: #454545;
-    transition: all 500ms;
+    transition: background-color 500ms, color 500ms 100ms;
 }
 
 .text a:hover {
     background-color: #454545;
     color: #DBDBDB;
+}
+
+/* Blog*/
+
+.blog {
+    display: flex;
+}
+
+.emanuel {
+    margin: 32px 24px;
+}
+
+.emanuel img {
+    width: 60%;
+}
+
+.info {
+    width: 40%;
 }
