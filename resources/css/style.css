@@ -3,16 +3,13 @@ html {
     color: #454545;
 }
 
-header {
-    height: 64px;
-    padding-left: 24px;
-    padding-right: 24px;
-}
+/* Header */
 
 header .content {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    height: 64px;
 }
 
 .logo {
@@ -29,7 +26,7 @@ header .content {
     font-weight: 200;
 }
 
-.logo .bold {
+.logo span {
     font-weight: 600;
 }
 
@@ -58,6 +55,53 @@ nav ul li a:hover {
     border-radius: 5px;
 }
 
-main {
+/* Main */
+
+main .start {
     background-color: #DBDBDB;
+    display: flex;
+}
+
+.start img {
+    width: 60%;
+    height: 40%;
+    margin: 32px 24px;
+}
+
+.text {
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 24px;
+}
+
+.text h1 {
+    font-weight: 800;
+    line-height: 1.4em;
+}
+
+.text h3 {
+    font-weight: 400;
+    margin-top: 0;
+    margin-bottom: 25px;
+    line-height: 1.7em;
+}
+
+.text a {
+    padding: 8px;
+    font-weight: 400;
+    font-size: 20px;
+    background-color: #DBDBDB;
+    color: #454545;
+    text-align: left;
+    text-decoration: none;
+    border-left-style: solid;
+    border-left-color: #454545;
+    transition: all 500ms;
+}
+
+.text a:hover {
+    background-color: #454545;
+    color: #DBDBDB;
 }
