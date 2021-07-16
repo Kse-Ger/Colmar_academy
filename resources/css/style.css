@@ -292,3 +292,29 @@ video {
 .inside h3, .video h3 {
     font-weight: 500;
 }
+
+/* Footer */
+
+footer {
+    border-top: 1px solid #DBDBDB;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px 24px 10px;
+    font-size: 10px; 
+    font-weight: 300;
+}
+
+.privacy {
+    display: flex;
+    justify-content: space-between;
+}
+
+.privacy a {
+    margin: 0 7px;
+    text-decoration: none;
+}
+
+.privacy a:hover {
+    font-weight: 500;
+}
