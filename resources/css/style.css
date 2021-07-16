@@ -161,6 +161,7 @@ main .start {
 .text h3 {
     font-size: 1.5em;
     font-weight: 500;
+    margin: 0;
 } 
 
 .text a {
@@ -177,4 +178,16 @@ main .start {
 .note img {
     height: auto;
     width: 35%;
+}
+
+/* Start learning */
+
+.learning {
+    background-color: #DBDBDB;
+    padding: 32px 72px;
+}
+
+.learning h1 {
+    text-align: center;
+    margin-bottom: 32px;
 }
