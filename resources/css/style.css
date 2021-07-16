@@ -204,7 +204,7 @@ main .start {
     flex-direction: column;
     margin: 16px;
     width: 27%;
-    border: 1px solid #BFBFBF;
+    box-shadow: 0 6px 20px 0 rgba(0, 0, 0, 0.22);
     transition: all 500ms ease-in-out;
 }
 
