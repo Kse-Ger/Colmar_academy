@@ -191,3 +191,42 @@ main .start {
     text-align: center;
     margin-bottom: 32px;
 }
+
+.list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.card {
+    background-color: whitesmoke;
+    display: flex;
+    flex-direction: column;
+    margin: 16px;
+    width: 27%;
+    border: 1px solid #BFBFBF;
+    transition: all 500ms ease-in-out;
+}
+
+.card img {
+    width: 100%;
+    height: auto;
+}
+
+.card h3 {
+    margin: 20px auto 0 16px;
+}
+
+.card p {
+    margin: 0 auto 24px 16px;
+}
+
+.card p span {
+    line-height: 50px;
+}
+
+.card:hover {
+    -webkit-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
+}
