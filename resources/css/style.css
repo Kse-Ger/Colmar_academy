@@ -6,11 +6,21 @@ html {
 
 /* Header */
 
+header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+    background-color: white;
+    border-bottom: 1px solid #DBDBDB;
+}
+
 header .content {
     display: flex;
     justify-content: space-between;
     align-items: center;
     height: 64px;
+    margin: 8px 24px 0;
 }
 
 .logo {
@@ -58,6 +68,11 @@ nav ul li a:hover {
 
 /* Main */
 /* Start here */
+
+main {
+    top: 64px;
+    position: relative;
+}
 
 main .start {
     background-color: #DBDBDB;
@@ -303,6 +318,8 @@ footer {
     padding: 16px 24px 10px;
     font-size: 10px; 
     font-weight: 300;
+    position: relative;
+    top: 64px;
 }
 
 .privacy {
