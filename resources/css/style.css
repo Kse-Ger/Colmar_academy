@@ -230,3 +230,65 @@ main .start {
     -ms-transform: scale(1.1);
     transform: scale(1.1);
 }
+
+/* Thesis exhibit */ 
+
+.thesis {
+    padding: 32px 0 32px 24px;
+}
+
+.thesis h1 {
+    text-align: center;
+    margin: 0 auto 32px;
+}
+
+.information {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.video {
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    padding-top: 16px;
+}
+
+video {
+    width: 100%;
+}
+
+.video p {
+    margin-top: 0;
+    font-weight: 300;
+}
+
+.other {
+    margin-left: 24px;
+    width: 40%;
+}
+
+.other .choice {
+    display: flex;
+    align-items: center;
+    padding: 16px;
+    transition: all 500ms;
+}
+
+.other .choice:hover {
+    background-color: #DBDBDB;
+}
+
+.other img {
+    height: auto;
+    width: 35%;
+}
+
+.inside {
+    margin-left: 1.5em;
+}
+
+.inside h3, .video h3 {
+    font-weight: 500;
+}
