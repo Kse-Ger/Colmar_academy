@@ -1,6 +1,7 @@
 html {
     font-family: 'Montserrat', sans-serif;
     color: #454545;
+    width: 100%;
 }
 
 /* Header */
@@ -36,7 +37,7 @@ nav ul {
 }
 
 nav ul li {
-    margin: auto 16px;
+    margin: auto 8px;
     list-style-type: none;
 }
 
@@ -65,32 +66,34 @@ main .start {
 }
 
 .start img {
-    width: 60%;
+    width: 55%;
     height: 40%;
     margin: 32px 24px;
 }
 
-.text {
-    width: 300px;
+.banner {
+    width: 450px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     margin-left: 24px;
 }
 
-.text h1 {
+.banner h1 {
+    font-size: 3em;
     font-weight: 800;
     line-height: 1.4em;
 }
 
-.text h3 {
+.banner h3 {
+    font-size: 1.5em;
     font-weight: 400;
     margin-top: 0;
     margin-bottom: 25px;
     line-height: 1.7em;
 }
 
-.text a {
+.banner a {
     padding: 8px;
     font-weight: 400;
     font-size: 20px;
@@ -103,7 +106,7 @@ main .start {
     transition: background-color 500ms, color 500ms 100ms;
 }
 
-.text a:hover {
+.banner a:hover {
     background-color: #454545;
     color: #DBDBDB;
 }
@@ -112,16 +115,66 @@ main .start {
 
 .blog {
     display: flex;
+    justify-content: center;
+    width: 100%;
 }
 
 .emanuel {
+    width: 60%;
     margin: 32px 24px;
+    display: flex;
+    flex-direction: column;
 }
 
 .emanuel img {
-    width: 60%;
+    width: 100%;
+}
+
+.emanuel p {
+    font-weight: 300;
+}
+
+.emanuel h5 {
+    font-weight: 500;
 }
 
 .info {
+    margin-top: 16px;
     width: 40%;
+}
+
+.info .note {
+    display: flex;
+    align-items: center;
+    padding: 16px;
+    transition: all 500ms;
+}
+
+.info .note:hover {
+    background-color: #DBDBDB;
+}
+
+.text {
+    margin-left: 1.5em;
+}
+
+.text h3 {
+    font-size: 1.5em;
+    font-weight: 500;
+} 
+
+.text a {
+    font-size: 1em;
+    color: cornflowerblue;
+    text-decoration: none;
+}
+
+.text a:hover {
+    color: dodgerblue;
+    font-weight: 600;
+}
+
+.note img {
+    height: auto;
+    width: 35%;
 }
