@@ -349,7 +349,7 @@ footer {
 
 @media only screen and (max-width: 800px) {
     header {
-        top: 2px;
+        top: 10px;
         border: 2px solid #454545;
         border-radius: 30px;
         width: 95%;
@@ -364,12 +364,12 @@ footer {
         display: flex;
         justify-content: space-evenly;
         align-items: center;
-        height: 64px;
-        margin: 8px 0px 0;
+        height: 90px;
+        margin: 8px 0 0;
     }
 
     .logo-mobile img {
-        height: 52px;
+        height: 80%;
     }
 
     main .start {
